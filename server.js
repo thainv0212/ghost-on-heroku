@@ -1,6 +1,5 @@
 var ghost = require('ghost');
 
-
 // Run a single Ghost process
 ghost()
   .then( ghostServer => ghostServer.start() )
